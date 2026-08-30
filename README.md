@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-**Coming soon — deployment in progress.**
+[Open the Live Demo](https://adityasheka411.github.io/github-profile-searcher/)
 
 ## 📌 About
 
