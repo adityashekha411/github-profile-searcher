@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Searcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>GitHub Profile Searcher</h1>
+        <p class="subtitle">
+            Search for any GitHub user and explore their profile.
+        </p>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="usernameInput"
+                placeholder="Enter GitHub username..."
+            >
+            <button id="searchButton">Search</button>
+        </div>
+
+        <p id="message"></p>
+
+        <section id="profile">
+    <div class="empty-state">
+        <div class="empty-icon">⌕</div>
+        <h2>Find a GitHub Developer</h2>
+        <p>Enter a GitHub username above to explore their profile and recent repositories.</p>
+    </div>
+</section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
